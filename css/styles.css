@@ -19,13 +19,13 @@ body {
     border-radius: 10px;
 }
 
-#name_search {
+#city {
     border: none;
     outline: none;
     border-bottom: 1px solid whitesmoke;
     background: transparent;
 }
 
-#name_search::placeholder {
+#city::placeholder {
     color: white;
 }

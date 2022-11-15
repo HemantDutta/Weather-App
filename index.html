@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <title>Weather App</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <!--Main Content-->
 <div class="container main_content">
-    <div class="search-box d-flex align-items-center justify-content-around">
+    <div class="search-box d-flex align-items-end justify-content-around">
         <input type="search" name="name_search" id="city" class="input-group" placeholder="Search for a city">
-        <button class="btn btn-outline-info mx-2" id="search_btn">Search</button>
+        <button class="btn btn-outline-light mx-2" id="search_btn">Search</button>
+        <button class="btn btn-outline-light"><i class="fa-solid fa-location-dot"></i></button>
     </div>
     <hr>
     <div class="result" id="result"></div>
